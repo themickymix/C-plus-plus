@@ -1,0 +1,20 @@
+#include<iostream> 
+using namespace std;
+
+int main ()
+{
+float hrs, min = 0; 
+int hour, totalMins;
+
+cout << "Enter hours: "; 
+cin >> hrs;
+cout << "Enter mins: "; 
+cin >> min;
+
+hour = hrs * 60;
+totalMins = hour + min;
+
+cout <<totalMins << "minutes";
+
+return 0;
+}

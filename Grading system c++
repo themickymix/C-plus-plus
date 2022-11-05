@@ -1,0 +1,77 @@
+#include <iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+    int score;
+    string grade, rating, remark;
+
+    cout << "Enter score: ";
+    cin >> score;
+
+ if (score >= 97 && score <= 100)
+    {
+        grade = "A+";
+        rating = "1.00";
+        remark = "Excellent";
+    }
+    else if  (score >= 101)
+    {
+        cout<<"Invalid" << endl;
+    }
+  else if  (score >= 94)
+    {
+        grade = "A";
+        rating = "1.25";
+        remark = "Very Good";
+    }
+    else if (score >= 91)
+    {
+        grade = "B+";
+        rating = "1.50";
+        remark = "Good";
+    }
+    else if (score >= 88)
+    {
+        grade = "B";
+        rating = "1.75";
+        remark = "Pass";
+    }
+    else if (score >= 85)
+    {
+        grade = "B-";
+        rating = "2.00";
+        remark = "Pass";
+    }
+    else if (score >= 82)
+    {
+        grade = "C+";
+        rating = "2.25";
+        remark = "Pass";
+    }
+    else if (score >= 79)
+    {
+        grade = "C";
+        rating = "2.50";
+        remark = "Pass";
+    }
+    else if (score >= 76)
+    {
+        grade = "C-";
+        rating = "2.75";
+        remark = "Pass";
+    }
+     else
+    {
+        grade = "F";
+        remark = "Failed";
+    }
+
+    cout << "\nGrade = " << grade << endl;
+    cout << "Rating = " << rating << endl;
+    cout << "Remarks = " << remark << endl;
+      
+
+    return 0;
+}

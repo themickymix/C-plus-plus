@@ -14,7 +14,7 @@ cin >> min;
 hour = hrs * 60;
 totalMins = hour + min;
 
-cout <<totalMins << "minutes";
+cout <<totalMins << " minutes";
 
 return 0;
 }
